@@ -1,0 +1,47 @@
+.areamenu {
+	text-align:center;
+	vertical-align:middle;
+	float:left;
+	display:inline-block;
+}
+
+.CellImg {
+	position: relative;
+	float:left;
+	text-align:center;
+	background-color: #EEEEEE;
+	padding:10px;
+	margin-left:15px;
+	width:280px;
+	height:210px;
+	display:inline-block;
+}
+
+/****************************/
+/* CSS per MENU Contestuale */
+/****************************/
+
+.cmenu {
+	width: 250px;
+	box-shadow: 0 4px 5px 3px rgba(0, 0, 0, 0.2);
+	position: absolute;
+	display: none;
+	text-decoration:none;
+	z-index: 10000;
+	background: white;
+}
+.menu-options {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.menu-option {
+	font-weight: 500;
+	font-size: 13px;
+	padding: 7px 10px 7px 15px;
+	cursor: pointer;
+	line-height:1em;
+	border-bottom:1px solid grey;
+	font-family: arial;
+}
+.menu-option:hover {background: rgba(0, 0, 0, 0.2);}
